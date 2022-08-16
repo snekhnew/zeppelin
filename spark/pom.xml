@@ -62,9 +62,9 @@
         <module>scala-2.12</module>
         <module>spark-dependencies</module>
         <module>spark-shims</module>
-        <module>spark1-shims</module>
-        <module>spark2-shims</module>
-        <module>spark3-shims</module>
+<!--        <module>spark1-shims</module>-->
+<!--        <module>spark2-shims</module>-->
+<!--        <module>spark3-shims</module>-->
     </modules>
 
     <build>

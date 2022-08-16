@@ -56,14 +56,14 @@
     <module>zeppelin-interpreter</module>
     <module>zeppelin-interpreter-shaded</module>
     <module>zeppelin-zengine</module>
-    <module>zeppelin-display</module>
+<!--    <module>zeppelin-display</module>-->
     <module>rlang</module>
-    <module>zeppelin-jupyter-interpreter</module>
+<!--    <module>zeppelin-jupyter-interpreter</module>-->
     <module>zeppelin-jupyter-interpreter-shaded</module>
     <module>kotlin</module>
     <module>groovy</module>
-    <module>spark</module>
-    <module>spark-submit</module>
+<!--    <module>spark</module>-->
+<!--    <module>spark-submit</module>-->
     <module>submarine</module>
     <module>markdown</module>
     <module>mongodb</module>
@@ -74,21 +74,21 @@
     <module>pig</module>
     <module>jdbc</module>
     <module>file</module>
-    <module>flink</module>
-    <module>flink-cmd</module>
-    <module>ignite</module>
+<!--    <module>flink</module>-->
+<!--    <module>flink-cmd</module>-->
+<!--    <module>ignite</module>-->
     <module>influxdb</module>
     <module>kylin</module>
     <module>python</module>
-    <module>lens</module>
-    <module>cassandra</module>
+<!--    <module>lens</module> error with lombok, pay attention to checkerframework.jdk7.version -->
+<!--    <module>cassandra</module>-->
     <module>elasticsearch</module>
     <module>bigquery</module>
     <module>alluxio</module>
-    <module>scio</module>
+<!--    <module>scio</module>-->
     <module>neo4j</module>
-    <module>sap</module>
-    <module>scalding</module>
+<!--    <module>sap</module> import com.sun.org.apache.xpath.internal.NodeSet; -->
+<!--    <module>scalding</module> scala -->
     <module>java</module>
     <module>beam</module>
     <module>hazelcastjet</module>
@@ -98,7 +98,7 @@
     <module>zeppelin-common</module>
     <module>zeppelin-client</module>
     <module>zeppelin-client-examples</module>
-    <module>zeppelin-web</module>
+<!--    <module>zeppelin-web</module>-->
     <module>zeppelin-server</module>
     <module>zeppelin-jupyter</module>
     <module>zeppelin-plugins</module>
@@ -107,7 +107,7 @@
 
   <properties>
     <!-- language versions -->
-    <java.version>1.8</java.version>
+    <java.version>11</java.version>
     <scala.2.10.version>2.10.5</scala.2.10.version>
     <scala.version>${scala.2.10.version}</scala.version>
     <scala.binary.version>2.10</scala.binary.version>
@@ -118,7 +118,8 @@
     <!-- frontend maven plugin related versions-->
     <node.version>v12.3.1</node.version>
     <npm.version>6.9.0</npm.version>
-    <plugin.frontend.version>1.6</plugin.frontend.version>
+    <plugin.frontend.version>1.12.1</plugin.frontend.version>
+<!--    1.12.1 -->
 
     <!-- common library versions -->
     <slf4j.version>1.7.30</slf4j.version>
