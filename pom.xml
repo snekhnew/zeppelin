@@ -56,8 +56,24 @@
     <module>zeppelin-interpreter</module>
     <module>zeppelin-interpreter-shaded</module>
     <module>zeppelin-zengine</module>
-<!--    <module>zeppelin-display</module>-->
+<!--    This works if passing:
+1. mvn clean package -Pscala-2.11  directly to module -> already defined here...
+and updating scala.version property to:
+2. <scala.version>2.11.12</scala.version>
+
+
+NOTE:
+Issue was caused by bad XML liblrary - correct version is specified in Profile.
+But also - had t update scala version to 2.11.12 - which is supported with java11.
+
+*****
+currently fixed in zeppelin-display/pom.xml
+*****
+
+-->
+    <module>zeppelin-display</module>
     <module>rlang</module>
+
 <!--    <module>zeppelin-jupyter-interpreter</module>-->
     <module>zeppelin-jupyter-interpreter-shaded</module>
     <module>kotlin</module>
