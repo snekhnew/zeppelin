@@ -27,7 +27,9 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
+import org.junit.Ignore;
 import org.junit.rules.ErrorCollector;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -36,6 +38,9 @@ import java.util.Properties;
 
 import org.apache.zeppelin.interpreter.InterpreterResult;
 
+
+@Ignore("Ignore due to not supported")
+@Deprecated
 public class PegdownParserTest {
   private static final Logger LOGGER = LoggerFactory.getLogger(PegdownParserTest.class);
   Markdown md;

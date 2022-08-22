@@ -21,12 +21,16 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.util.Properties;
 
 import org.apache.zeppelin.interpreter.InterpreterResult;
 
+
+@Ignore("Ignore due to not supported")
+@Deprecated
 public class Markdown4jParserTest {
   Markdown md;
 
