@@ -96,6 +96,7 @@
 
   <properties>
     <!-- language versions -->
+    <!-- test gitlab action -->
     <java.version>11</java.version>
     <scala.2.10.version>2.10.5</scala.2.10.version>
     <scala.version>${scala.2.10.version}</scala.version>
