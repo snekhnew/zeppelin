@@ -1905,9 +1905,9 @@
 
   <profiles>
     <profile>
-      <id>scala-2.10</id>
+      <id>scala-2.11</id>
       <activation>
-        <activeByDefault>false</activeByDefault>
+        <activeByDefault>true</activeByDefault>
       </activation>
       <properties>
         <scala.version>${scala.2.10.version}</scala.version>
